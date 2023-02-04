@@ -11,4 +11,4 @@ if(b>a)
 if(a<b)
     Console.WriteLine(a);
 else
-    Console.WriteLine();
+    Console.WriteLine(a > b? "Первое число больше второго": "Второе число больше первого");
